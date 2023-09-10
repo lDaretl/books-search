@@ -1,27 +1,17 @@
-# React + TypeScript + Vite
+# Books Search
+Application for searching books using Google Books APIs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Preview
+You can view and test the application [here](https://books-search.daret.space/)
 
-Currently, two official plugins are available:
+<img src="https://images.daret.space/books-search-1.png" alt="preview-1"/>
+<img src="https://images.daret.space/books-search-2.png" alt="preview-2"/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Building
+For production, you must add the Google Books API key to `.env.production`:
+- `VITE_GOOGLE_BOOKS_API_KEY=`[Google Books API](https://developers.google.com/books)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Made with
+* <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" width="32px" alt="react logo" />   React
+- <img align="center" src="https://github.com/lDaretl/books-search/assets/66037271/feb952a5-83cb-4f2a-9a4c-491d9633f3ad" width="32px" alt="redux logo" />   Redux + RTK Query
+* <img align="center" src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" width="32px" alt="bootstrap logo" />   Bootstrap
